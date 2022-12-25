@@ -1,0 +1,65 @@
+
+
+
+article{
+    width: 100%;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;   
+}
+.basliqsah{
+    text-align: center;
+
+}
+
+img{
+    width: 270px;
+    height: 250px;
+    border-radius: 5%;
+    border: 1px solid grey;
+}
+
+.esas{
+    display: flex;
+     justify-content: center;
+     margin: 5px;
+     border: 2px solid green;
+     border-radius: 5%;
+     margin-left: 200px;
+     margin-right: 200px;
+}
+
+.sekil{
+    margin-right: 10px;
+    width: 300px;
+    height: 400px;
+   
+    border-radius: 5%;
+    
+    
+}
+
+.metn{
+    margin-top: 70px;
+    width: 300px;
+    height: 220px;
+    background-color: rgb(220, 185, 238);
+    border-radius: 5%;
+    padding: 15px;
+
+   
+    text-align: center;
+    
+
+}
+.metn:hover{
+    background-color: rgb(137, 219, 42);  
+    font-style: italic;
+    font-weight: bold;
+   
+}
+.esas:hover{
+    border-radius: 10%;
+    border-style: dashed;
+}
+

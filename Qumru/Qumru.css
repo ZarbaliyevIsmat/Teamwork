@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+  }
+  body {
+    background-color: rgb(78, 75, 75);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .top-image {
+    margin-bottom: 40px;
+  }
+  
+  .north {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s all;
+  }
+  .container {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+  }
+  .container:hover .north {
+    opacity: 0.5;
+    transform: scale(0.98);
+    box-shadow: none;
+  }
+  .container:hover .north:hover {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+  }
+  .modal {
+    display: none;
+    position: absolute;
+    z-index: 50;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+  }
+  
+  .north:hover + .modal,
+  .modal:hover {
+    display: block;
+    text-align: center;
+  }
+  
+  .img-wrapper {
+    margin: 24px auto;
+  }
+  
+  .img-wrapper img {
+    object-fit: cover;
+    width: 600px;
+    height: 300px;
+  }
+  
+  .modal-heading {
+    margin-bottom: 48px;
+  }
